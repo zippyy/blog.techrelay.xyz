@@ -1,0 +1,3 @@
+baseURL = 'https://techrelayblog.netlify.app'
+languageCode = 'en-us'
+title = 'Tech Relay Blog'
