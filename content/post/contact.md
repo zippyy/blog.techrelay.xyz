@@ -13,17 +13,17 @@ Personal Email: nick@nbennett.xyz
 
 Personal Telegram: @zippyy
 
-XMPP: Zippy@nbennett.xyz
+XMPP: nick@techrelay.xyz
 
 Discord: Zippyy#8551
 
 Battle.net: Zippy420#1359
 
-Steam: Zippy420
+Steam: Zippyy
 
-Matrix Handle: @nick:matrix.nbennett.xyz
+Matrix Handle: @nick:relay.wtf
 
-Matrix Homeserver: https://matrix.nbennett.xyz
+Matrix Homeserver: https://matrix.relay.wtf
 
 
 
