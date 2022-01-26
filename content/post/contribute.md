@@ -1,14 +1,11 @@
 +++
 author = "Zippy"
-date = 2021-09-03T23:45:49Z
+date = 1942-04-02T10:20:49Z
 description = ""
-draft = false
 slug = "contribute"
 title = "Contribute"
 
 +++
-
-
 If you like my Content and would like to support this site or buy me a coffee/beer you can contribute via the methods below!
 
 
@@ -30,6 +27,3 @@ BNB -  bnb1u5wg485myh7ldvncepcmq7dkqfza9y69wrhaux
 DAI - 0x7f05e856842B76831897f9Ff703b488FfC900cBd
 
 Doge - DKTs9WU2YyJ9wKgnRQPuxp4brZU9GfHMmt
-
-
-
