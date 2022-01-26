@@ -7,6 +7,7 @@ slug = "humble-beginnings"
 title = "Humble Beginnings"
 
 +++
+![](uploads/ian-schneider-tammbr4okv4-unsplash.jpg)
 
 So... This has been a long time coming, and honestly kind of surprising that its taken me this long to put up a blog but there is a first time for everything!
 
