@@ -24,7 +24,7 @@ url = "about/"
 weight = -107
 [[main]]
 name = "Contribute"
-url = "blog.techrelay.xyz/post/contribute/"
+url = "post/contribute/"
 [[social]]
 name = "github"
 type = "social"
