@@ -17,7 +17,7 @@ url = "https://matrix.relay.wtf"
 [[main]]
 name = "Bitwarden"
 parent = "Links"
-url = "https://bitwarden.techrelay.xyz"
+url = "https://bitwarden.nbennett.xyz"
 [[main]]
 name = "About"
 url = "about/"
