@@ -5,8 +5,9 @@ description = ""
 image = ""
 slug = "humble-beginnings"
 title = "Humble Beginnings"
-featureImage: ian-schneider-TamMbr4okv4-unsplash.jpg
 +++
+
+featureImage: ian-schneider-TamMbr4okv4-unsplash.jpg
 
 ![](ian-schneider-TamMbr4okv4-unsplash.jpg)
 
