@@ -10,7 +10,7 @@ title = "About Me"
 +++
 So where to start....
 
-First and foremost my TWO biggest passions are Technology and Travel, I have been to 65+ countries and counting, I was fluent in 3 languages until early adulthood, and had once in a lifetime experiences throughout my adventures. I have always been entranced by technology as well, Growing up all over the world and moving often it was something that I not only always had with me where ever I moved but also a way for me to keep in contact with people from travels.
+First and foremost my TWO biggest passions are Technology and Travel, I have been to 65+ countries and counting, Multi-Lingual, and had once in a lifetime experiences throughout my adventures. I have always been entranced by technology as well, Growing up all over the world and moving often it was something that I not only always had with me where ever I moved but also a way for me to keep in contact with people from travels.
 
 IRC, AIM, Jabber/XMPP, MSN, Yahoo, all of those got heave use from me throughout my childhood to keep in contact with friends, family, peers, and anyone else I found along the way worth keeping up correspondence with, I still actively use IRC and XMPP as well as host a BBS for nostalgia. All of these things hold a small part of what enticed or drew me to Technology.
 
