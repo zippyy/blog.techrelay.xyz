@@ -8,6 +8,8 @@ title = "Humble Beginnings"
 
 +++
 
+![](ian-schneider-TamMbr4okv4-unsplash.jpg)
+
 So... This has been a long time coming, and honestly kind of surprising that its taken me this long to put up a blog but there is a first time for everything!
 
 I have been in IT for roughly 16 years, Everything from System Administrator to Virtualization and Cloud Engineer. My passion within the IT sector though would have to be Automation and Security, I am constantly adopting new tech and hardware like the Yubikey, which has been an amazing device so far.
