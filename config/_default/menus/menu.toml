@@ -25,6 +25,10 @@ weight = -107
 [[main]]
 name = "Contribute"
 url = "post/contribute/"
+[[main]]
+name = "Contact"
+url = "post/contact/"
+weight = ""
 [[social]]
 name = "github"
 type = "social"
