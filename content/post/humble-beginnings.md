@@ -2,7 +2,7 @@
 author = "Nicholas Bennett"
 date = 2021-09-04T01:33:53Z
 description = ""
-image = "/content/images/ian-schneider-TamMbr4okv4-unsplash.jpg"
+image = "/uploads/ian-schneider-tammbr4okv4-unsplash.jpg"
 slug = "humble-beginnings"
 title = "Humble Beginnings"
 
