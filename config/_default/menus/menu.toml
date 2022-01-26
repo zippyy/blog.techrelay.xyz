@@ -39,10 +39,6 @@ name = "twitter"
 url = "https://twitter.com/techrelay"
 weight = 2
 [[social]]
-name = "linkedin"
-url = "https://www.linkedin.com/in/#"
-weight = 3
-[[social]]
 name = "rss"
 url = "index.xml"
 weight = 4
