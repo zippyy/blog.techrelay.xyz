@@ -11,13 +11,13 @@ identifier = "Links"
 name = "Links"
 weight = -108
 [[main]]
-name = "LinkedIn"
+name = "Matrix"
 parent = "Links"
-url = "https://www.linkedin.com/"
+url = "https://matrix.relay.wtf"
 [[main]]
-name = "Twitter"
+name = "Bitwarden"
 parent = "Links"
-url = "https://twitter.com/"
+url = "https://bitwarden.techrelay.xyz"
 [[main]]
 name = "About"
 url = "about/"
