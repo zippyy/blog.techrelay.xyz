@@ -1,14 +1,11 @@
 +++
 author = "Zippy"
-date = 2021-09-03T23:45:47Z
+date = 1942-04-02T22:20:47Z
 description = ""
-draft = false
 slug = "contact"
 title = "Contact"
 
 +++
-
-
 Personal Email: nick@nbennett.xyz
 
 Personal Telegram: @zippyy
@@ -28,4 +25,3 @@ Matrix Homeserver: https://matrix.relay.wtf
 
 
 I will add more here like my BBS, IRC, Slack, Etc... once I get settled into my new place.
-
