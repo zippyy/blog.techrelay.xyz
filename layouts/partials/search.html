@@ -1,0 +1,22 @@
+<script src="https://cdn.jsdelivr.net/npm/algoliasearch@3/dist/algoliasearchLite.min.js"></script>
+<script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
+
+var client = algoliasearch("N8YM1FVCFC","c4ce6b0543a51ce5415424a9ea373bf0");
+var index = client.initIndex("465a6cb8-7dcd-4672-8003-651ad9c72cc1");
+autocomplete('          ', { hint: false }, [
+  {
+    source: autocomplete.sources.hits(index, { hitsPerPage: 10 }),
+      displayKey: 'title',
+       templates: {
+          suggestion: function(suggestion) {
+            return suggestion._highlightResult.title.value;
+          },
+          empty: function(suggestion) {
+            return 'No result';
+          }
+        }
+    }
+  ]).on("autocomplete:selected",function(event, suggestion, dataset, context) {
+    console.log(event, suggestion, dataset, context);
+    window.location.assign(suggestion.url);
+  });
