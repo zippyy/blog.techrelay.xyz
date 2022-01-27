@@ -7,6 +7,6 @@ initComments({
   defaultHomeserverUrl: "https://matrix.cactus.chat:8448",
   serverName: "cactus.chat",
   siteName: "techrelay",
-  commentSectionId: "trcomments"
+  commentSectionId: "{{ index .Params 0 }}"
 })
 </script>
