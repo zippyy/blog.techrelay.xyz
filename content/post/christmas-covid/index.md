@@ -25,6 +25,4 @@ I have some good content to post about though, all that time off I had I spent a
 
 <br>
 <br>
-
-
 {{< chat techrelay >}}
