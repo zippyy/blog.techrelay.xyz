@@ -1,3 +1,15 @@
 {{ define "main" }}
   {{- partial "archive" . }}
 {{ end }}
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+<script type="text/javascript">
+  algoliasearchNetlify({
+    appId: 'BCFNFZ9GFR',
+    apiKey: '4cfee06420487f3712b12bbd43f1f52a',
+    siteId: '465a6cb8-7dcd-4672-8003-651ad9c72cc1',
+    branch: 'master',
+    selector: 'div#search',
+  });
+</script>
