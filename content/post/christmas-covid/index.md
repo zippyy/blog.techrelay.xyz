@@ -23,5 +23,6 @@ all in all it was the sickest I have ever been in my life, even living with fibr
 
 I have some good content to post about though, all that time off I had I spent a good chunk working in my env. and setup some cool new things!
 
-
-
+<br>
+<br>
+{{< chat techrelay >}}

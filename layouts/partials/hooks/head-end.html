@@ -1,0 +1,23 @@
+<!-- Search input -->
+<input type="search" id="search-input" placeholder="Search..." autocomplete="off">
+<!-- Load Algolia scripts -->
+<script src="https://cdn.jsdelivr.net/npm/algoliasearch@3/dist/algoliasearchLite.min.js"></script>
+<script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
+<!-- Initialise search -->
+<script>
+  var client = algoliasearch("YourApplicationID","YourSearchOnlyAPIKey");
+  var index = client.initIndex("YourIndex");
+  autocomplete('#search-input', { hint: false }, [
+    {
+      source: autocomplete.sources.hits(index, { hitsPerPage: 5 }),
+        displayKey: 'title',
+        templates: {
+            suggestion: function(suggestion) {
+              return suggestion._highlightResult.title.value;
+            }
+          }
+      }
+    ]).on("autocomplete:selected",function(event, suggestion, dataset, context) {
+      console.log(event, suggestion, dataset, context);
+    });
+</script>
