@@ -25,10 +25,6 @@
       {{- .Content }}
     </div>
 
-    {{ if (index .Page.Params.forms 0) }}
-      {{ partial "form.html" (dict "context" . "form" 0) }}
-    {{ end }}
-
     {{- $showRelatedInArticle := true }}
     {{- if eq $s.showRelatedInArticle false }}
       {{- $showRelatedInArticle = false }}
