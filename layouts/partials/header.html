@@ -17,6 +17,7 @@
         {{ partial "nav" (dict "context" . "menu" .Site.Menus.main) }}
       {{- end }}
       {{ if .Site.IsMultiLingual }}
+      <div id="algoliasearch-netlify-frontend"></div>
       <div class="nav_parent">
         <a href="#" class="nav_item">{{ $params.languageMenuName }}</a>
         <div class="nav_sub">
@@ -34,3 +35,15 @@
     </div>
   </nav>
 </header>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+<script type="text/javascript">
+  algoliasearchNetlify({
+    appId: 'BCFNFZ9GFR',
+    apiKey: '<YOUR_ALGOLIA_SEARCH_API_KEY>',
+    siteId: '465a6cb8-7dcd-4672-8003-651ad9c72cc1',
+    branch: 'master',
+    selector: 'div#search',
+  });
+</script>
