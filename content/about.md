@@ -57,6 +57,3 @@ Video Games, Favorite Genre is RPG, Action/Adventure, and the
 occasional shooter. 
 
 
-<br>
-<br>
-{{< chat aboutcomments >}}
