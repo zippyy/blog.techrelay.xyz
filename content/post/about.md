@@ -6,7 +6,6 @@ description = ""
 slug = "about"
 tags = ["info"]
 title = "About Me"
-hidden = "true"
 +++
 So where to start....
 
