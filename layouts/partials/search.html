@@ -1,11 +1,11 @@
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
-<script type="text/javascript">
-  algoliasearchNetlify({
-    appId: 'N8YM1FVCFC',
-    apiKey: 'c4ce6b0543a51ce5415424a9ea373bf0',
-    siteId: '465a6cb8-7dcd-4672-8003-651ad9c72cc1',
-    branch: 'master',
-    selector: 'div#search',
-  });
-</script>
+<div id="search-overlay" class="search-overlay">
+  <div class="container">
+    <input autocomplete=off id="search" class="search-input" type="search" placeholder="Type to Search">
+    <span class="search-bar"></span>
+    <span class="esc-note">press <strong>ESC</strong> to close</span>
+    <span><a href="https://www.algolia.com/"><img class="search-algolia"
+                                                  src="/img/global/search-by-algolia.svg"/></a></span>
+    <div id="results" class="search-results">
+    </div>
+  </div>
+</div>
