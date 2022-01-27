@@ -2,7 +2,7 @@
 <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
 
 var client = algoliasearch("BCFNFZ9GFR","4cfee06420487f3712b12bbd43f1f52a");
-var index = client.initIndex("netlify_465a6cb8-7dcd-4672-8003-651ad9c72cc1_master_all");
+var index = client.initIndex("techrelayblog");
 autocomplete('<input type="search" id="#search-input-element-id">', { hint: false }, [
   {
     source: autocomplete.sources.hits(index, { hitsPerPage: 10 }),
