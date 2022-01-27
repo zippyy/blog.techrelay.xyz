@@ -17,6 +17,7 @@
         {{ partial "nav" (dict "context" . "menu" .Site.Menus.main) }}
       {{- end }}
       {{ if .Site.IsMultiLingual }}
+      <div id=></div>
       <div class="nav_parent">
         <a href="#" class="nav_item">{{ $params.languageMenuName }}</a>
         <div class="nav_sub">
@@ -33,5 +34,13 @@
       {{- partialCached "follow" . }}
     </div>
   </nav>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/algoliasearch/3.24.3/algoliasearch.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.1.1/dist/instantsearch.min.js"></script>
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous">
+</script>
+<script src="/js/liveSearch.js"></script>
 </header>
 
