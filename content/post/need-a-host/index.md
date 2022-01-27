@@ -28,3 +28,6 @@ If you like my blog or are just wanting to get some free digital ocean credit an
 
 *******I will always make a note when posting an affliate link, If you prefer not to support me simply google the provider to arrive there without using an affliate link*******
 
+<br>
+<br>
+{{< chat techrelay >}}
