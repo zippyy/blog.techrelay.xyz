@@ -15,10 +15,6 @@ name = "Matrix"
 parent = "Links"
 url = "https://matrix.relay.wtf"
 [[main]]
-name = "Bitwarden"
-parent = "Links"
-url = "https://bitwarden.nbennett.xyz"
-[[main]]
 name = "About"
 url = "about/"
 weight = -107
@@ -28,6 +24,10 @@ url = "post/contribute/"
 [[main]]
 name = "Contact"
 url = "post/contact/"
+weight = ""
+[[main]]
+name = "Search"
+url = "/search"
 weight = ""
 [[social]]
 name = "github"
