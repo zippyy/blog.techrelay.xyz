@@ -1,16 +1,6 @@
 {{ define "main" }}
 
-<div class="grid-inverse wrap content">
-  <section id="search-form" class="search-section">
-    <form action="{{ "search" | absURL }}" class="search-form">
-      <label for="search-query" class="input-label">Search: </label>
-      <input id="search-query" name="search-query" type="text"/>
-    </form>
-    <ul id="search-results" class="posts"></ul>
-    </ul>
-  </section>
-  {{- partial "sidebar" . }}
-</div>
+
 <!-- this template is sucked in by search.js and appended to the search-results div above. So editing here will adjust style -->
 
 <!-- Search input -->
