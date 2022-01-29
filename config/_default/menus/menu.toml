@@ -11,29 +11,29 @@ name = "About"
 url = "about/"
 weight = "-109"
 [[main]]
-name = "Contribute"
-url = "post/contribute/"
-weight = "-108"
-[[main]]
 name = "Contact"
 url = "post/contact/"
+weight = "-108"
+[[main]]
+name = "Contribute"
+url = "post/contribute/"
 weight = "-107"
+[[main]]
+name = "Archives"
+url = "post/rich-content/"
+weight = "-106"
+[[main]]
+name = "Search"
+url = "/search"
+weight = "-105"
 [[main]]
 identifier = "Links"
 name = "Links"
-weight = "-106"
+weight = "-104"
 [[main]]
 name = "Matrix"
 parent = "Links"
 url = "https://matrix.relay.wtf"
-[[main]]
-name = "Archives"
-url = "post/rich-content/"
-weight = "-105"
-[[main]]
-name = "Search"
-url = "/search"
-weight = "-104"
 [[social]]
 name = "github"
 type = "social"
