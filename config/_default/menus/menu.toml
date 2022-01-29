@@ -7,9 +7,17 @@ name = "Blog"
 url = "post/"
 weight = "-110"
 [[main]]
-name = "Archives"
-url = "post/rich-content/"
-weight = ""
+name = "About"
+url = "about/"
+weight = "-109"
+[[main]]
+name = "Contribute"
+url = "post/contribute/"
+weight = "-108"
+[[main]]
+name = "Contact"
+url = "post/contact/"
+weight = "-107"
 [[main]]
 identifier = "Links"
 name = "Links"
@@ -19,20 +27,13 @@ name = "Matrix"
 parent = "Links"
 url = "https://matrix.relay.wtf"
 [[main]]
-name = "About"
-url = "about/"
-weight = "-109"
-[[main]]
-name = "Contribute"
-url = "post/contribute/"
-[[main]]
-name = "Contact"
-url = "post/contact/"
-weight = ""
+name = "Archives"
+url = "post/rich-content/"
+weight = "-106"
 [[main]]
 name = "Search"
 url = "/search"
-weight = ""
+weight = "-105"
 [[social]]
 name = "github"
 type = "social"
