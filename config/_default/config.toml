@@ -25,4 +25,4 @@ home = ["HTML", "RSS", "JSON"]
 
 [module]
 [[module.imports]]
-path = "github.com/dnb-org/dnb-hugo-shortcodes"
+path = "github.com/dnb-org/shortcodes"
