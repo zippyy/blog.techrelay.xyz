@@ -21,7 +21,7 @@ weight = "-107"
 [[main]]
 identifier = "Links"
 name = "Links"
-weight = -108
+weight = "-106"
 [[main]]
 name = "Matrix"
 parent = "Links"
@@ -29,11 +29,11 @@ url = "https://matrix.relay.wtf"
 [[main]]
 name = "Archives"
 url = "post/rich-content/"
-weight = "-106"
+weight = "-105"
 [[main]]
 name = "Search"
 url = "/search"
-weight = "-105"
+weight = "-104"
 [[social]]
 name = "github"
 type = "social"
