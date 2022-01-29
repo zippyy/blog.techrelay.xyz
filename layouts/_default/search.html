@@ -1,8 +1,5 @@
 {{ define "main" }}
 
-
-<!-- this template is sucked in by search.js and appended to the search-results div above. So editing here will adjust style -->
-
 <!-- Search input -->
 <input type="search" id="search-input" placeholder="Search..." autocomplete="off">
 <!-- Load Algolia scripts -->
@@ -26,65 +23,6 @@
       console.log(event, suggestion, dataset, context);
     });
 </script>
-  .search-section {
-    max-width: inherit;
-    overflow: inherit;
-    word-wrap: break-word;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .search-form {
-    max-width: inherit;
-    overflow: inherit;
-    display: flex;
-  }
-  
-  input[type=text] {
-    flex-grow: 2;
-    padding: 12px 15px;
-    display: inline-block;
-    border: none;
-    border-radius: 5px;
-    box-sizing: border-box;
-    font-family: 'Open Sans';
-    font-size: medium;
-  }
 
-  html[data-mode='lit'] input[type=text] {
-    background-color: #EEE8D5;
-    color: #000;
-  }
-
-  html[data-mode='dim'] input[type=text] {
-    background-color:#0D3640;
-    color: #E0E5E6
-  }
-
-  .input-label {
-    padding: 12px 20px;
-    flex-grow: 1;
-    text-align: right;
-    font-weight: bolder;
-  }
-  
-  .matched-content {
-    width: 100%;
-    word-wrap: break-word;
-    overflow: auto;
-    text-overflow: ellipsis;
-  }
-  
-  mark {
-    word-wrap: break-word;
-    overflow: hidden;
-    background-color: orange;
-  }
-  
-  html[data-mode='lit'] .post_item {
-    background-color: #eee8d5;
-  }
-  
-  </style>
 {{ end }}
 
