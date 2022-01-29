@@ -5,8 +5,8 @@
 <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
 <!-- Initialise search -->
 <script>
-  var client = algoliasearch("YourApplicationID","YourSearchOnlyAPIKey");
-  var index = client.initIndex("YourIndex");
+  var client = algoliasearch("BCFNFZ9GFR","4cfee06420487f3712b12bbd43f1f52a");
+  var index = client.initIndex("techrelayblog");
   autocomplete('#search-input', { hint: false }, [
     {
       source: autocomplete.sources.hits(index, { hitsPerPage: 5 }),
@@ -21,3 +21,5 @@
       console.log(event, suggestion, dataset, context);
     });
 </script>
+
+<div id="autocomplete"></div>
