@@ -3,7 +3,7 @@
 
 var client = algoliasearch("BCFNFZ9GFR","4cfee06420487f3712b12bbd43f1f52a");
 var index = client.initIndex("TechRelayBlog");
-autocomplete('#search-input-element-id', { hint: false }, [
+autocomplete('#search-input', { hint: false }, [
   {
     source: autocomplete.sources.hits(index, { hitsPerPage: 10 }),
       displayKey: 'title',
