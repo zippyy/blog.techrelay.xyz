@@ -23,3 +23,6 @@ series = "series"
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 
+[module]
+[[module.imports]]
+path = "github.com/dnb-org/shortcodes"
