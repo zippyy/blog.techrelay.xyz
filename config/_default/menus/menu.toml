@@ -12,15 +12,15 @@ url = "about/"
 weight = "-109"
 [[main]]
 name = "Contact"
-url = "post/contact/"
+url = "contact/"
 weight = "-108"
 [[main]]
 name = "Contribute"
-url = "post/contribute/"
+url = "contribute/"
 weight = "-107"
 [[main]]
 name = "Archives"
-url = "post/rich-content/"
+url = "archive/"
 weight = "-106"
 [[main]]
 identifier = "Links"
