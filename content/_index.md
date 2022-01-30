@@ -1,9 +1,14 @@
 +++
 author = "Hugo Authors"
-description = "A theme based on VMware's Clarity Design System for publishing technical blogs with Hugo." # set your site's description here. will be use for home page content meta tags (seo).
+description = "A theme based on VMware's Clarity Design System for publishing technical blogs with Hugo."
+
 +++
 <br>
+
 <br>
+
 <br>
+
 <br>
-This will eventually be a static homepage but for now [Click Here](https://techrelay.xyz/post/ "Blog Posts") or the Blog Posts link in the menu above to view my Blog.
+
+This will eventually be a static homepage but for now just click the link above.
