@@ -2,10 +2,10 @@
 author = "Nicholas Bennett"
 date = 2021-10-19T01:04:21Z
 description = ""
-featureImage = "sebastian-staines-xZIFEPtRsRI-unsplash.jpg"
+image = ""
 slug = "white-ribbon-of-death"
 title = "White Ribbon Of Death"
-
+featureImage = "wrod.jpg"
 +++
 Okay this is not my normal post for this blog but its a passion of mine outside of tech so here we go!
 
