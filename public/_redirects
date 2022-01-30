@@ -1,2 +1,2 @@
 # Redirect old subdomain to new one
-https://blog.techrelay.xyz/* https://techrelay.xyz/:splat 301! 
+#https://blog.techrelay.xyz/* https://techrelay.xyz/:splat 301! 
