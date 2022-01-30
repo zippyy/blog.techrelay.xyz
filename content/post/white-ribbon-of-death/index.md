@@ -2,7 +2,7 @@
 author = "Nicholas Bennett"
 date = 2021-10-19T01:04:21Z
 description = ""
-image = "__GHOST_URL__/content/images/2021/10/sebastian-staines-xZIFEPtRsRI-unsplash.jpg"
+featureImage = "sebastian-staines-xZIFEPtRsRI-unsplash.jpg"
 slug = "white-ribbon-of-death"
 title = "White Ribbon Of Death"
 
