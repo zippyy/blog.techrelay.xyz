@@ -6,4 +6,4 @@ description = "A theme based on VMware's Clarity Design System for publishing te
 <br>
 <br>
 <br>
-Test Text here. This will be the static home page. test
+This will eventually be a static homepage but for now [Click Here](https://techrelay.xyz/post/ "Blog Posts") or the Blog Posts link in the menu above to view my Blog.
