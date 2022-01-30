@@ -20,7 +20,7 @@ url = "contribute/"
 weight = "-107"
 [[main]]
 name = "Archives"
-url = "post/rich-content/"
+url = "archive/"
 weight = "-106"
 [[main]]
 identifier = "Links"
