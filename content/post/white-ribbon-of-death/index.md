@@ -7,8 +7,7 @@ slug = "white-ribbon-of-death"
 title = "White Ribbon Of Death"
 featureImage = "wrod.jpg"
 categories: "Leisure"
-tags: ["Mountains","Recreation"]
-
+tags: "Moutains"
 +++
 Okay this is not my normal post for this blog but its a passion of mine outside of tech so here we go!
 
