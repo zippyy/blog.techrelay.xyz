@@ -1,11 +1,11 @@
 +++
-title = "About"
-description = "About Tech Relay"
-date = "2019-02-28"
 aliases = ["about-us", "about-hugo", "contact"]
 author = "Zippy"
-+++
+date = 2019-02-28T00:00:00Z
+description = "About Tech Relay"
+title = "About"
 
++++
 So where to start....
 
 First and foremost my TWO biggest passions are Technology and Travel,
@@ -54,7 +54,6 @@ Obviously Travel, I love to adventure!
 Spending time with my circle.
 
 Video Games, Favorite Genre is RPG, Action/Adventure, and the
-occasional shooter. 
+occasional shooter.
 
-
-Checked out The [Contact Page](https://blog.techrelay.xyz/post/contact "Contact Page") for all of the public services I host Like matrix!
+Checked out The [Contact Page](https://techrelay.xyz/post/contact "Contact Page") for all of the public services I host Like matrix!
