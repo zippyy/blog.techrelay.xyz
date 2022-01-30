@@ -9,3 +9,10 @@
 
 [context.branch-deploy]
   command = "hugo --environment staging"
+
+[[redirects]]
+  from = "https://blog.techrelay.xyz"
+  to = "https://techrelay.blog"
+  status = 200
+  force = true
+  query = {path = ":path"}
