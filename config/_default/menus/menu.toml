@@ -3,7 +3,7 @@ name = "Home"
 url = ""
 weight = "-111"
 [[main]]
-name = "Blog"
+name = "Blog Posts"
 url = "post/"
 weight = "-110"
 [[main]]
