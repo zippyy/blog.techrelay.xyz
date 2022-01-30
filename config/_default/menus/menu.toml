@@ -16,7 +16,7 @@ url = "contact/"
 weight = "-108"
 [[main]]
 name = "Contribute"
-url = "post/contribute/"
+url = "contribute/"
 weight = "-107"
 [[main]]
 name = "Archives"
