@@ -2,7 +2,7 @@
 author = "Nicholas Bennett"
 date = 2021-10-13T01:47:36Z
 description = ""
-image = "__GHOST_URL__/content/images/2021/10/tim-johnson-TW_dKLcR8s4-unsplash.jpg"
+featureimage = "reddoorbluedoor.jpg"
 slug = "red-pill-or-blue-pill"
 title = "Red Pill or Blue Pill"
 
