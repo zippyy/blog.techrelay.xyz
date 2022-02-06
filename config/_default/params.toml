@@ -59,7 +59,7 @@ mobileNavigation = "left" # if you prefer right change to 'right'
 enforceDarkMode = true
 
 # customize footer icon. see issue https://github.com/chipzoller/hugo-clarity/issues/77
-# footerLogo = "icons/copy.svg"
+ footerLogo = "logos/footer.png"
 
 # Text for the languages menu.
 languageMenuName = "🌐"
