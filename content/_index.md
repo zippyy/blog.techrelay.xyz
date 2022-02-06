@@ -7,9 +7,6 @@ description = "A theme based on VMware's Clarity Design System for publishing te
 
 <br>
 
-<br>
-
-<br>
 
 <p style="text-align:center;"><img src="https://i.ibb.co/3hYfndc/Tech-Relay-3.png" alt="Logo"></p>
 
