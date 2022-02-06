@@ -12,3 +12,5 @@ description = "A theme based on VMware's Clarity Design System for publishing te
 <br>
 
 This will eventually be a static homepage but for now just click the link above.
+
+test
