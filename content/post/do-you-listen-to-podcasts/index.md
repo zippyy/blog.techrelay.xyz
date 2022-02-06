@@ -6,7 +6,7 @@ draft = false
 image = "__GHOST_URL__/content/images/2021/10/will-francis-ZDNyhmgkZlQ-unsplash.jpg"
 slug = "do-you-listen-to-podcasts"
 title = "Do you listen to podcasts?"
-tags = [podcast, tech]
+tags = ["podcast", "tech"]
 +++
 
 
