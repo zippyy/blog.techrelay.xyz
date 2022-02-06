@@ -31,6 +31,10 @@ name = "Matrix"
 parent = "Links"
 url = "https://matrix.relay.wtf"
 [[main]]
+name = "filler"
+url = ""
+weight = ""
+[[main]]
 name = "Search"
 url = "/search"
 weight = "-104"
