@@ -57,3 +57,5 @@ Video Games, Favorite Genre is RPG, Action/Adventure, and the
 occasional shooter.
 
 Checked out The [Contact Page](https://techrelay.xyz/post/contact "Contact Page") for all of the public services I host Like matrix!
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/465a6cb8-7dcd-4672-8003-651ad9c72cc1/deploy-status)](https://app.netlify.com/sites/techrelayblog/deploys)
