@@ -30,11 +30,11 @@ DUO_ENABLE: 1 or 0
 
 
 +     HEROKU_API_KEY
- 	Your Heroku API key - can be found in Account Setings -> APi Keys
+ 	Your Heroku API key - can be found in Account Setings -> APi Keys.
 +     HEROKU_APP_NAME
- 	The name of the Heroku application, this must be unqiue across Heroku and will fail if it is not [Value alphanumerical]
+ 	The name of the Heroku application, this must be unqiue across Heroku and will fail if it is not. [Value alphanumerical]
 +     HEROKU_VERIFIED
- 	Required regardless, if you have added a credit card on, your account will be verified to use built in addons, if not please see "NON VERIFIED ACCOUNTS" section [Value 0/1]
+ 	Required regardless, if you have added a credit card on, your account will be verified to use built in addons, if not please see "NON VERIFIED ACCOUNTS" section. [Value 0/1]
 
 
 4. In your Github repo page click on the actions tab and then click the BitwardenRSOnHerokuAIO_Deploy job and wait for it to complete. 
@@ -46,10 +46,18 @@ DUO_ENABLE: 1 or 0
 
 Updating is simple and can be done one of two ways:
 
-+ Running the workflow manually via Github Action 
-+ Making a commit to the main branch, forcing a Github Actions workflow to initiate
++ Running the workflow manually via Github Action. 
++ Making a commit to the main branch, forcing a Github Actions workflow to initiate.
 
 Either one of these will force the Github Actions workflow to run and update the app.
+
+# **Optional** 
+
+In order to keep the free heroku instance awake all the time, The free instance sleeps after like 15-30 minutes of inactiviy and then wakes again when it receives traffic but this means that the page takes longer to load and/or syncing might have issues, So we can use a service like UptimeRobot or FreshPing or really any other free Pingdom alternative to send a ping every 10 minutes to as a keep-alive. (you can even use something like uptimekuma self hosted in docker.)
+
+* sing up for free monitor service.
+* point service at your heroku bitwarden URL and set the time to 10 minutes. 
+* Enjoy your new bitwarden instance.
 
 <br>
 
