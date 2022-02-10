@@ -7,6 +7,8 @@ title = "Contact"
 
 +++
 
+Tech Relay Email: zippy@techrelay.xyz
+
 Personal Email: nick@nbennett.xyz
 
 Personal Telegram: @zippyy
