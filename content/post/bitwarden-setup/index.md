@@ -24,7 +24,7 @@ First you will need to fork the repo and make some edits, Follow these steps:
 DUO_ENABLE: 1 
 ```
 
-3. Go to your forked repo and click Settings > Secrets and add secrets for:
+3. Go to your forked repo and click Settings > Secrets > Actions and add secrets for:
 
 
 +     HEROKU_API_KEY (yoru Heroku API key - can be found in Account Setings -> APi Keys)
@@ -32,5 +32,5 @@ DUO_ENABLE: 1
 +     HEROKU_VERIFIED (required regardless, if you have added a credit card on, your account will be verified to use built in addons, if not please see "NON VERIFIED ACCOUNTS" section) [Value 0/1]
 
 
-4. 
+4. In your Github repo page click on the actions 
 
