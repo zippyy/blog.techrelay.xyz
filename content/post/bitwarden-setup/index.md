@@ -51,8 +51,10 @@ Updating is simple and can be done one of two ways:
 
 Either one of these will force the Github Actions workflow to run and update the app.
 
-In the next post we will discuss how to host this same 
-Vaultwarden RS server at home with docker!
+<br>
+
+**In the next post we will discuss how to host this same 
+Vaultwarden RS server at home with docker!**
 
 <br>
 
