@@ -28,7 +28,7 @@ DUO_ENABLE: 1
 
 
 +     HEROKU_API_KEY
- 	```Your Heroku API key - can be found in Account Setings -> APi Keys
+ 	Your Heroku API key - can be found in Account Setings -> APi Keys
 +     HEROKU_APP_NAME
  	The name of the Heroku application, this must be unqiue across Heroku and will fail if it is not [Value alphanumerical]
 +     HEROKU_VERIFIED

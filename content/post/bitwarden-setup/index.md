@@ -28,17 +28,11 @@ DUO_ENABLE: 1
 
 
 +     HEROKU_API_KEY
- 	```
  	Your Heroku API key - can be found in Account Setings -> APi Keys
- 	```
 +     HEROKU_APP_NAME
- 	```
  	The name of the Heroku application, this must be unqiue across Heroku and will fail if it is not [Value alphanumerical]
- 	```
 +     HEROKU_VERIFIED
- 	```
  	Required regardless, if you have added a credit card on, your account will be verified to use built in addons, if not please see "NON VERIFIED ACCOUNTS" section [Value 0/1]
- 	```
 
 
 4. In your Github repo page click on the actions 
