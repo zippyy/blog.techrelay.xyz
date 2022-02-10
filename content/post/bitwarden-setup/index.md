@@ -49,6 +49,6 @@ Updating is simple and can be done one of two ways:
 + Running the workflow manually via Github Action 
 + Making a commit to the main branch, forcing a Github Actions workflow to initiate
 
-*Either one of these will force the Github Actions workflow to run and update the app. If you need to modify to enable/disable settings, you should re run it as well. *
+*Either one of these will force the Github Actions workflow to run and update the app. If you need to modify to enable/disable settings, you should re run it as well.*
 
 In the next post we will discuss how to host this same Vaultwarden RS server at home with docker!
