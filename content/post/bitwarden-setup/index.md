@@ -58,4 +58,4 @@ Vaultwarden RS server at home with docker!**
 
 <br>
 
-*Credit and Special Thanks to [David Howell](https://github.com/davidjameshowell/ "Davic Howell Github") for making the Github Actions and Repo/Readme to make this workin heroku for free.* 
+*Credit and Special Thanks to [David Howell](https://davidjameshowell.com/ "David Howell Website") for making the Github Actions and Repo/Readme to make this workin heroku for free.* 
