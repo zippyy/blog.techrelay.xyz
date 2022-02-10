@@ -1,6 +1,6 @@
 +++
 author = "Nicholas Bennett"
-date = 2022-01-11T01:58:03Z
+date = 2022-02-10T01:58:03Z
 description = ""
 draft = false
 slug = "seflhost-bitwarden"
