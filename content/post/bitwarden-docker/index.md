@@ -24,3 +24,4 @@ In that same terminal window run
 docker run -d --name vaultwarden -v /vw-data/:/data/ -p 80:80 vaultwarden/server:latest
 
 {{< /code >}}
+
