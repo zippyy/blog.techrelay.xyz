@@ -56,4 +56,3 @@ Spending time with my circle.
 Video Games, Favorite Genre is RPG, Action/Adventure, and the
 occasional shooter.
 
-Checked out The [Contact Page](https://techrelay.xyz/contact "Contact Page") for all of the public services I host Like matrix!
