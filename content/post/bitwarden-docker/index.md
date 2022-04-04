@@ -19,9 +19,7 @@ Create a directory inside of your docker directory called Vaultwarden with anoth
 
 In that same terminal window run 
 
-{{< code >}}
 
 docker run -d --name vaultwarden -v /vw-data/:/data/ -p 80:80 vaultwarden/server:latest
 
-{{< /code >}}
 
