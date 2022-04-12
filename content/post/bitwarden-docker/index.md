@@ -22,6 +22,6 @@ In that same terminal window run
 
 docker run -d --name vaultwarden -v /path-to-vw-data-here/:/data/ -p 80:80 vaultwarden/server:latest
 
-it will pull the image and set everything up, at which point you should not be able to visit ip or fqdn in a browser and you should be presented with bitwarden page. 
+it will pull the image and set everything up, at which point you should now be able to visit ip or fqdn in a browser and you should be presented with bitwarden page. 
 
 
