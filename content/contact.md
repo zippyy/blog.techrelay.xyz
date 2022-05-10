@@ -29,4 +29,5 @@ XMPP/Jabber Server: im.relay.wtf
 
 JMP.CHAT Number: +1-719-300-6005
 
+
 I will add more here like my BBS, IRC, Slack, Etc... once I get settled into my new place.
