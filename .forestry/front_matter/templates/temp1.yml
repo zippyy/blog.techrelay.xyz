@@ -2,3 +2,5 @@
 label: temp1
 hide_body: false
 fields: []
+pages:
+- content/form.md
