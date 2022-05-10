@@ -1,5 +1,9 @@
 +++
-
+author = "Zippy"
+date = 1942-04-02T22:20:47Z
+description = ""
+slug = "form"
+title = "form"
 +++
     <form name="contact" class="contact-form width-normal" action="/thank-you/" method="POST" data-netlify="true">
         <input type="hidden" name="form-name" value="contact" />
