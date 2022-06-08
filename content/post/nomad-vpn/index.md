@@ -99,3 +99,23 @@ and then Click connect on the status page
 on that same page you should see an IP Address and an UP/Down Stat. if traffic is flowing here its working and you should be able to view a web page. Test with the device currently Connected to TravelRouter.
 
 ![wireguard_connected](wireguard_connected.png)
+
+If you would prefer a video of this TravelRouter Client part of the setup GLINET has a really good one from their support site linked [here](https://youtu.be/oTrche1jprQ)
+
+At this point you should have the HomeRouter Server running with the TravelRouter and maybe your Phone connected as clients to the HomeRouter Server and you are able to browse the internet! Awesome right? well there still one last thing to do, VPN<->Internet Kill Switch
+
+
+
+In the Travel Router Gui navigate to Admin Panel -> VPN -> Internet Kill Switch. Click the Toggle for Enable and Click APPLY
+
+
+
+![internet_kill_switch_enabled](internet_kill_switch_enabled.png)
+
+
+
+Congrats you have now setup your Wireguard Server on the HomeRouter, Connected the TravelRouter to the VPN and enabled the KILL Switch, Connected a device to the TravelRouter Either via Ethernet or Wifi and you can visit https://icanhazip.com and it shows your HomeRouter's External IP address. 
+
+
+
+I threw this together super fast for the folks on reddit, I will improve this guide when I have a little more time to sit down and knock it out. I will also be adding more in this Digital Nomad Series to cover things like Mobile Internet, Hotspots, Masking data to avoid caps, etc.... 
