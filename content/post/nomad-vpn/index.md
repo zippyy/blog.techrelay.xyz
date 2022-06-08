@@ -37,7 +37,7 @@ Assuming you have purchased the recommended routers in this guide then you just 
 
 choose the IP address subnet on the next screen. you can leave this as whatever the default is, on mine it was 10.0.0.1, I changed this to 10.0.42.1 (shout out to HHGTTG) but this can really be anything starting with 10.0.x.x (remember only 1-254)
 
-screenshot goes here 
+![start_wireguard_server](start_wireguard_server.png)
 
 On that same screen you can set the port that the VPN will connect to. This can be left as the default or if you know that you will be connected to networks with strict outgoing port lockdowns you can set this to something like port 53 (DNS), port 80 (http), port 443 (https) or another common port that is rarely blocked. (*however this is only needed for more complicated setups or if you want to attempt to bypass paid hotspots, I say attempt because it doesn't work for all of them and is becoming less common as most have switched to more advanced ways of detecting, and others are even easier like simply mac spoofing your device but that's a whole other topic in and of itself so I digress lol.*)
 
