@@ -35,9 +35,38 @@ Assuming you have purchased the recommended routers in this guide then you just 
 
 ![initialize_wireguard_server](initialize_wireguard_server.png)
 
-choose the IP address subnet on the next screen. you can leave this as whatever the default is, on mine it was 10.0.0.1, I changed this to 10.0.42.1 (shout out to HHGTTG) but this can really be anything starting with 10.0.x.x (remember only 1-254)
+choose the IP address subnet on the next screen. you can leave this as whatever the default is, on mine it was 10.0.0.1, I changed this to 10.0.42.1 (shout out to HHGTTG) but this can really be anything starting with 10.0.x.x (remember only 1-254); If you are wanting to access other things on the network that youll be hosting the wireguard server in, like remote desktop to another machine or access things like file servers, plex, home assistant, etc... then make sure enable the toggle for "Allow Access Local Network" If you dont need this then leave that toggle disabled. 
 
 ![start_wireguard_server](start_wireguard_server.png)
 
-On that same screen you can set the port that the VPN will connect to. This can be left as the default or if you know that you will be connected to networks with strict outgoing port lockdowns you can set this to something like port 53 (DNS), port 80 (http), port 443 (https) or another common port that is rarely blocked. (*however this is only needed for more complicated setups or if you want to attempt to bypass paid hotspots, I say attempt because it doesn't work for all of them and is becoming less common as most have switched to more advanced ways of detecting, and others are even easier like simply mac spoofing your device but that's a whole other topic in and of itself so I digress lol.*)
+On that same screen you can set the port that the VPN will connect to. This can be left as the default or if you know that you will be connected to networks with strict outgoing port lockdowns you can set this to something like port 53 (DNS), port 80 (http), port 443 (https) or another common port that is rarely blocked. (*however this is only needed for more complicated setups or if you want to attempt to bypass paid hotspots, I say attempt because it doesn't work for all of them and is becoming less common as most have switched to more advanced ways of detecting, and others are even easier like simply mac spoofing your device but that's a whole other topic in and of itself so I digress lol.*) Whatever PORT you Choose here you must Port Forward to the HomeRouter if it is not the Outer most router in your network. I.E its behind NAT
 
+Next we are going to add a client, This process will be the same for any other clients you might want to create credentials for, like your phone!
+
+Go to VPN -> WireGuard Server -> Management and click Add a New User.
+
+![add_a_new_wireguard_user](add_a_new_wireguard_user.png)
+
+
+
+Name the config here, For this Guide since we are setting up this first user for the TravelRouter we will call this config TravelRouter
+
+![input_wireguard_config_name](input_wireguard_config_name.png)
+
+
+
+Back on the management page you will see your user/client on the list. 
+
+![Show_Config](Show_Config.png)
+
+Click the little file icon under configurations and it will display the configuration 
+
+![wireguard_configuration](wireguard_configuration.png)
+
+Copy the config to a note pad or something for safe keeping until we need it again to setup the TravelRouter as a Client to the WireGuard Server. 
+
+So if you followed along you should now have the HomeRouter connected to the internet, the WireGuard Server Initialized and a Config created for the TravelRouter and now its time to move onto the TravelRouter setup but first You should probably go back through the Client Config creation steps above again and create a config for your phone and use the WireGuard App on iOS or Android to Scan the QR code, use this config to test the connection to your HomeRouter with wifi turned off, if you can Browse the web, Go to https://icanhazip.com and check that the ip address reported is the same as on a computer connected to your home network lan. if you cant browse the internet once its "connected" then its usually one of two things: 
+
+*First is your main router out to the internet is not the HomeRouter and you have another router in front of the HomeRouter that you didn't setup the port forwarding as mentioned in the beginning of this guide. Or your IP address in the Config (called the endpoint) is a LAN address because of reason number 1 (Port Forwarding is not covered in this guide as its a common task, If you need help with this reach out to me on Discord/Matrix and I will help you)*
+
+ 
