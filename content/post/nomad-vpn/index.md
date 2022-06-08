@@ -70,7 +70,7 @@ So if you followed along you should now have the HomeRouter connected to the int
 
 *First is your main router out to the internet is not the HomeRouter and you have another router in front of the HomeRouter that you didn't setup the port forwarding as mentioned in the beginning of this guide. Or your IP address in the Config (called the endpoint) is a LAN address because of reason number 1 (Port Forwarding is not covered in this guide as its a common task, If you need help with this reach out to me on Discord/Matrix and I will help you)*
 
-
+Edit: I forgot to mention that if your endpoint address is a local one, i.e 192.168.x.x then you need to replace that with the ip that https://icanhazip.com shows otherwise it wont work, you also need to forward whatever port you set on the server config to the IP address of the HomeRouter (this is only applicable to people that have a router in front of the HomeRouter)
 
 ## TravelRouter Setup
 
