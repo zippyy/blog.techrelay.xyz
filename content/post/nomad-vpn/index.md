@@ -74,4 +74,28 @@ So if you followed along you should now have the HomeRouter connected to the int
 
 ## TravelRouter Setup
 
- 
+ With the config you saved from the last part of the guide, Connect to the TravelRouter either via Ethernet or Wifi and navigate to the web GUI (like the HomeRouter it is most likely 192.168.8.1 however yours will come with a card that has all that info)
+
+
+
+once logged into the web GUI navigate to VPN -> WireGuard Client and click the button that says Setup WireGuard Manually.
+
+![setup_wireguard_manually](setup_wireguard_manually.png)
+
+
+
+Click on the Configuration Tab and Paste the config in the window
+
+![paste_wireguard_config](paste_wireguard_config.png)
+
+After Clicking Next on the next page Name the connection HomeRouter
+
+![input_config_name](input_config_name.png)
+
+and then Click connect on the status page
+
+![wireguard_connect](wireguard_connect.png)
+
+on that same page you should see an IP Address and an UP/Down Stat. if traffic is flowing here its working and you should be able to view a web page. Test with the device currently Connected to TravelRouter.
+
+![wireguard_connected](wireguard_connected.png)
