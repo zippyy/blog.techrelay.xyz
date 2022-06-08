@@ -15,7 +15,7 @@ So lets get started.
 
 First of all lets discuss some pre-reqs that you must have or before you start this guide 
 
-Link here to the post talking about hardware if you want more/less features, otherwise Purchase the models mentioned in this guide for a quickstart.
+[Link will go here] to upcoming post talking about the GL-inet hardware if you want more/less features, different use cases, setups with other hardware otherwise Purchase the models mentioned in this guide for a quickstart.
 
 **1: You must have another GL-Inet Router or a Raspi, Old Desktop, Home router, etc... that supports wireguard (openvpn can be used as well albeit at a slower perfomance)**
 
