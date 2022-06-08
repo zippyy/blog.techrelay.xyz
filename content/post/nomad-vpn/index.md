@@ -26,8 +26,9 @@ Link here to the post talking about hardware if you want more/less features, oth
 
 For this Guide I will be using a GL-Inet Flint (GL-AX1800) as the Home region router refered to as HomeRouter in the rest of this guide and a Slate (GL-AR750S) as the Mobile travel router refered to as TravelRouter in the rest of this guide. 
 
-
 Alright lets get started. 
+
+## HomeRouter Setup
 
 Take the HomeRouter and connect it to the internet, If you already have a router for you home internet (like a DSL modem/router combo or an xFinity gateway, either make sure its in bridge mode so that the HomeRouter is acting as the DHCP server and routing point or if your device does not support bridge mode or you have a nicer router then you will need to port forward to the HomeRouter)
 
@@ -68,5 +69,9 @@ Copy the config to a note pad or something for safe keeping until we need it aga
 So if you followed along you should now have the HomeRouter connected to the internet, the WireGuard Server Initialized and a Config created for the TravelRouter and now its time to move onto the TravelRouter setup but first You should probably go back through the Client Config creation steps above again and create a config for your phone and use the WireGuard App on iOS or Android to Scan the QR code, use this config to test the connection to your HomeRouter with wifi turned off, if you can Browse the web, Go to https://icanhazip.com and check that the ip address reported is the same as on a computer connected to your home network lan. if you cant browse the internet once its "connected" then its usually one of two things: 
 
 *First is your main router out to the internet is not the HomeRouter and you have another router in front of the HomeRouter that you didn't setup the port forwarding as mentioned in the beginning of this guide. Or your IP address in the Config (called the endpoint) is a LAN address because of reason number 1 (Port Forwarding is not covered in this guide as its a common task, If you need help with this reach out to me on Discord/Matrix and I will help you)*
+
+
+
+## TravelRouter Setup
 
  
