@@ -12,7 +12,7 @@ If you like my Content and would like to support this site or buy me a coffee/be
 
 Venmo Personal - [@zippyy](https://venmo.com/u/zippyy) 
 
-CashApp Personal [$zippy90](https://cash.app/$zippy90)
+CashApp Personal - [$zippy90](https://cash.app/$zippy90)
 
 Patreon - [https://www.patreon.com/nbennett](https://www.patreon.com/nbennett)
 
