@@ -7,8 +7,6 @@ title = "Contact"
 
 +++
 
-Tech Relay Email: zippy@techrelay.xyz
-
 Personal Email: nick@nbennett.xyz
 
 Personal Telegram: @zippyy
@@ -19,15 +17,9 @@ Battle.net: Zippy420#1359
 
 Steam: Zippyy
 
-Matrix Handle: @nick:relay.wtf
-
-Matrix Homeserver: https://matrix.relay.wtf
-
-XMPP/Jabber zippy@relay.wtf
-
-XMPP/Jabber Server: im.relay.wtf 
-
 JMP.CHAT Number: +1-719-300-6005
+
+You may also use the form below to reach out to me directly.
 
 <!DOCTYPE HTML>
 <form name="contact" class="contact-form width-normal" action="/thank-you/" method="POST" data-netlify="true">
@@ -63,6 +55,3 @@ JMP.CHAT Number: +1-719-300-6005
             <button type="submit" value="Submit" id="Form-submit">Submit</button>
         </div>
     </form>
-
-
-I will add more here like my BBS, IRC, Slack, Etc... once I get settled into my new place.
