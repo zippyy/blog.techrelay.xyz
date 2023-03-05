@@ -17,7 +17,9 @@ Battle.net: Zippy420#1359
 
 Steam: Zippyy
 
-JMP.CHAT Number: +1-719-300-6005
+Matrix: @nick:matrix.techrelay.xyz
+
+Matrix Homeserver: matrix.techrelay.xyz
 
 You may also use the form below to reach out to me directly.
 
