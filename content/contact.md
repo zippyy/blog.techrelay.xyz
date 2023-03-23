@@ -19,15 +19,15 @@ Battle.net: Zippy420#1359
 
 Steam: Zippyy
 
-Matrix Handle: @nick:matrix.techrelay.xyz
+Matrix Handle: @nick:relay.wtf
 
-Matrix Homeserver: matrix.techrelay.xyz
+Matrix Homeserver: https://matrix.relay.wtf
 
-<!--XMPP/Jabber zippy@relay.wtf
+XMPP/Jabber zippy@relay.wtf
 
 XMPP/Jabber Server: im.relay.wtf 
 
-JMP.CHAT Number: +1-719-300-6005 -->
+JMP.CHAT Number: +1-719-300-6005
 
 
 I will add more here like my BBS, IRC, Slack, Etc... once I get settled into my new place.
