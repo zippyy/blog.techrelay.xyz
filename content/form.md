@@ -2,26 +2,9 @@
 author = "Zippy"
 date = 1942-04-02T22:20:47Z
 description = ""
-slug = "contact"
-title = "Contact"
-
+slug = "form"
+title = "form"
 +++
-
-Personal Email: nick@nbennett.xyz
-
-Personal Telegram: @zippyy
-
-Discord: Zippyy#8551
-
-Battle.net: Zippy420#1359
-
-Steam: Zippyy
-
-Matrix: @nick:matrix.techrelay.xyz
-
-Matrix Homeserver: matrix.techrelay.xyz
-
-You may also use the form below to reach out to me directly.
 
 <!DOCTYPE HTML>
 <form name="contact" class="contact-form width-normal" action="/thank-you/" method="POST" data-netlify="true">
