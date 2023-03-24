@@ -20,7 +20,7 @@ url = "contribute/"
 weight = "-107"
 [[main]]
 name = "Archives"
-url = "archive/"
+url = "archives/"
 weight = "-106"
 [[main]]
 identifier = "Links"
@@ -29,7 +29,7 @@ weight = "-105"
 [[main]]
 name = "Matrix"
 parent = "Links"
-url = "https://matrix.relay.wtf"
+url = "https://matrix.techrelay.co"
 [[main]]
 name = "Search"
 url = "/search"
