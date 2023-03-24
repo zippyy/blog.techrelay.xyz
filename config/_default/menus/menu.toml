@@ -29,7 +29,7 @@ weight = "-105"
 [[main]]
 name = "Matrix"
 parent = "Links"
-url = "https://matrix.techrelay.co"
+url = "https://matrix.techrelay.xyz"
 [[main]]
 name = "Search"
 url = "/search"
