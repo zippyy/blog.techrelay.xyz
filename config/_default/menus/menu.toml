@@ -19,10 +19,6 @@ name = "Contribute"
 url = "contribute/"
 weight = "-107"
 [[main]]
-name = "Archives"
-url = "archives/"
-weight = "-106"
-[[main]]
 identifier = "Links"
 name = "Links"
 weight = "-105"
