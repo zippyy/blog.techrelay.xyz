@@ -1,5 +1,14 @@
-+++
-title = "Search"
-searchPage = true
-type = "search"
-+++
+---
+
+title: "Search Results"
+
+sitemap:
+
+  priority : 0.1
+
+layout: "search"
+
+---
+
+
+nothing here
