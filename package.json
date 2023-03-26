@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "hugo-lunr": "^0.0.4"
+  }
+}
